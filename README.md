@@ -2,7 +2,7 @@
 Tips on spinning up a PA in AWS
 
 1. Create an AWS account [HERE](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222)
-> Amazon offer a Free Tier which for a period offers access to certain resources at no cost.  Unfortunately the Palo Alto VM is not within the Free Tier.  So you will be charged the hourly cost.
+> Amazon offer a Free Tier which for a period offers access to certain resources at no cost.  Unfortunately the Palo Alto VM is not within the Free Tier.  So you will be charged the hourly cost after the trial period.
 
 >AWS has a [marketplace](https://aws.amazon.com/marketplace) where you can purchase various AMI's (Amazon Machine Images) to launch within your AWS infrastructure. The AWS Marketplace enables qualified partners to market and sell their software to AWS Customers. AWS Marketplace is an online software store that helps customers find, buy, and immediately start using the software and services that run on AWS.
 
@@ -17,4 +17,10 @@ Tips on spinning up a PA in AWS
 8. From the AWS Marketplace, select your name (top right) then `Your Marketplace Account` then `Manage your software subscriptions` 
 9. From here you can view and cancel what you are subscribed to:
 ![Your Software Subscriptions](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/your_software_subscriptions.png)
-10. 
+10. Navigate to [AWS Console](https://aws.amazon.com/console/)
+11. Click on `Services` then `EC2`
+12. Click on `Launch Instance`
+13. From `Choose an Amazon Machine Image (AMI)`, click on `AWS Marketplace` and search for `palo alto`
+14. Find the result `VM-Series Next-Generation Firewall Bundle 1` and click on `Select`
+15. 
+![Pricing]()
