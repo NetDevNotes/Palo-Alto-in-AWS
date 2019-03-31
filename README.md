@@ -39,7 +39,8 @@ Tips on spinning up a PA in AWS
 `~/Dropbox/Backups/AWS $ chmod 400 ec2_key_pair_210319.pem`
 25. SSH to the instance:
 `ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com`
-26.
+26.You can also browse to the intance using its public DNS name listed in EC2 Instance:
+![HTTPS GUI]()
 
 
 
