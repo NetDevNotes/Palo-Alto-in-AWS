@@ -38,14 +38,9 @@ Tips on spinning up a PA in AWS
 24. Change the permissions of your key file:
 `~/Dropbox/Backups/AWS $ chmod 400 ec2_key_pair_210319.pem`
 25. SSH to the instance:
-```
-~/Dropbox/Backups/AWS ᐅ ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com
-The authenticity of host 'ec2-18-206-58-192.compute-1.amazonaws.com (18.206.58.192)'
-RSA key fingerprint is SHA256:NHmlH8j8q56icoLRhFhHell0+S8/i40fOQvj4AlQfz8c.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'ec2-18-206-58-192.compute-1.amazonaws.com,18.206.58.192' (RSA) to the list of known hosts.
-Welcome admin.
-admin@PA-VM> 
-```
+`ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com`
+26.
+
+
 
 
