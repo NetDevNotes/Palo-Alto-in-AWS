@@ -15,4 +15,6 @@ Tips on spinning up a PA in AWS
 6. At this stage you might get a warning stating your account needs to be verified, if so follow the process.
 7. Depending on where you are in the process you might see a button to launch your new Palo Alto instance, you can use this to launch the firewall, or continue below.
 8. From the AWS Marketplace, select your name (top right) then `Your Marketplace Account` then `Manage your software subscriptions` 
-9. 
+9. From here you can view and cancel what you are subscribed to:
+![Your Software Subscriptions](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/your_software_subscriptions.png)
+10. 
