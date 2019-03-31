@@ -39,8 +39,21 @@ Tips on spinning up a PA in AWS
 `~/Dropbox/Backups/AWS $ chmod 400 ec2_key_pair_210319.pem`
 25. SSH to the instance using the Public DNS name:
 `ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com`
-26. You can also browse to the intance using its public DNS name listed in EC2 Instance:
-![HTTPS GUI]()
+> Before using the web interface of VM-Series. Once the instance is running, connect to it using a SSH client with the private key file used to launch the instance. For example: ssh -i <privatekey.pem> admin@<EIP or private IP of eth0> Then use the PAN-OS CLI commands "configure", "set mgt-config users admin password" and "commit" commands to set the password.
+26. From the CLI, create an admin password so you can access the Web UI:
+```
+admin@PA-VM> configure 
+Entering configuration mode
+[edit]               
+admin@PA-VM# set mgt-config users admin password 
+Enter password   : 
+Confirm password : 
+[edit]              
+admin@PA-VM# 
+```
+27. You can also browse to the intance using its public DNS name listed in EC2 Instance and the new password:
+![HTTPS GUI](https://ec2-18-206-58-192.compute-1.amazonaws.com/)
+
 
 
 
