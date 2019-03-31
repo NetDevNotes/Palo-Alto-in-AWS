@@ -34,5 +34,18 @@ Tips on spinning up a PA in AWS
 21. The `Lunch Status` page provides more details while your instance is powering up.
 22. Click `View Instances` where you will be taken to the EC2 Instances page, you can see the IP, DNS name and other details here.
 ![Instances](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/instances.png)
-23. 
+23. Right click your instance and choose `Connect`, read the information on connecting.
+24. Change the permissions of your key file:
+`~/Dropbox/Backups/AWS $ chmod 400 ec2_key_pair_210319.pem`
+25. SSH to the instance:
+```
+~/Dropbox/Backups/AWS ᐅ ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com
+The authenticity of host 'ec2-18-206-58-192.compute-1.amazonaws.com (18.206.58.192)'
+RSA key fingerprint is SHA256:NHmlH8j8q56icoLRhFhHell0+S8/i40fOQvj4AlQfz8c.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ec2-18-206-58-192.compute-1.amazonaws.com,18.206.58.192' (RSA) to the list of known hosts.
+Welcome admin.
+admin@PA-VM> 
+```
+
 
