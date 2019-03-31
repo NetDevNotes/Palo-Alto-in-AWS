@@ -37,9 +37,9 @@ Tips on spinning up a PA in AWS
 23. Right click your instance and choose `Connect`, read the information on connecting.
 24. Change the permissions of your key file:
 `~/Dropbox/Backups/AWS $ chmod 400 ec2_key_pair_210319.pem`
-25. SSH to the instance:
+25. SSH to the instance using the Public DNS name:
 `ssh -i /Users/nico/Dropbox/Backups/AWS/ec2_key_pair_210319.pem admin@ec2-18-206-58-192.compute-1.amazonaws.com`
-26.You can also browse to the intance using its public DNS name listed in EC2 Instance:
+26. You can also browse to the intance using its public DNS name listed in EC2 Instance:
 ![HTTPS GUI]()
 
 
