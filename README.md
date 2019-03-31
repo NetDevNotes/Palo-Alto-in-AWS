@@ -33,5 +33,6 @@ Tips on spinning up a PA in AWS
 > A key pair consists of a public key that AWS stores, and a private key file that you store. Together, they allow you to connect to your instance securely. For Windows AMIs, the private key file is required to obtain the password used to log into your instance. For Linux AMIs, the private key file allows you to securely SSH into your instance. The selected key pair will be added to the set of keys authorized for this instance. 
 21. The `Lunch Status` page provides more details while your instance is powering up.
 22. Click `View Instances` where you will be taken to the EC2 Instances page, you can see the IP, DNS name and other details here.
-![]()
+![Instances](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/instances.png)
+23. 
 
