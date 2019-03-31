@@ -1,4 +1,4 @@
-# Palo-Alto-lab-in-AWS
+# Palo-Alto-in-AWS
 Tips on spinning up a PA in AWS
 
 1. Create an AWS account [HERE](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222)
@@ -52,9 +52,4 @@ Confirm password :
 admin@PA-VM# 
 ```
 27. You can also browse to the intance using its public DNS name listed in EC2 Instance and the new password:
-![HTTPS GUI](https://ec2-18-206-58-192.compute-1.amazonaws.com/)
-
-
-
-
-
+![PA Web UI Dashboard](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/dashboard.png)
