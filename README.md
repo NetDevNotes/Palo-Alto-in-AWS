@@ -29,7 +29,7 @@ Tips on spinning up a PA in AWS
 17. Click `Review and Launch`
 18. Note the costs and AMI details.
 19. Click `Launch'
-20. Create a Key Pair, select the key, acknowledge the agreeement and click `Launch Instances`
+20. Create a Key Pair, select the key, acknowledge the agreement and click `Launch Instances`
 > A key pair consists of a public key that AWS stores, and a private key file that you store. Together, they allow you to connect to your instance securely. For Windows AMIs, the private key file is required to obtain the password used to log into your instance. For Linux AMIs, the private key file allows you to securely SSH into your instance. The selected key pair will be added to the set of keys authorized for this instance. 
 21. The `Lunch Status` page provides more details while your instance is powering up.
 22. Click `View Instances` where you will be taken to the EC2 Instances page, you can see the IP, DNS name and other details here.
@@ -51,5 +51,6 @@ Confirm password :
 [edit]              
 admin@PA-VM# 
 ```
-27. You can also browse to the intance using its public DNS name listed in EC2 Instance and the new password:
+27. You can also browse to the instance using its public DNS name listed in EC2 Instance and the new password:
 ![PA Web UI Dashboard](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/dashboard.png)
+EOF
