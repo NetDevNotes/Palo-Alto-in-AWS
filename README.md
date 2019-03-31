@@ -23,7 +23,7 @@ Tips on spinning up a PA in AWS
 13. From `Choose an Amazon Machine Image (AMI)`, click on `AWS Marketplace` and search for `palo alto`
 14. Find the result `VM-Series Next-Generation Firewall Bundle 1` and click on `Select`
 15. Note the pricing and click `Continue`
-![Pricing](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/your_software_subscriptions.png)
+![Pricing](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/ami_pricing.png)
 16. Fromm `Choose an Instance Type`, scroll down passed the greyed out hardware options to select your hardware platform, the recommended has been selected and is `mx.xlarge`
 ![Choose an Instance Type](https://github.com/NetDevNotes/Palo-Alto-lab-in-AWS/blob/master/choose_an_instance_type.png)
 17. Click `Review and Launch`
@@ -32,5 +32,6 @@ Tips on spinning up a PA in AWS
 20. Create a Key Pair, select the key, acknowledge the agreeement and click `Launch Instances`
 > A key pair consists of a public key that AWS stores, and a private key file that you store. Together, they allow you to connect to your instance securely. For Windows AMIs, the private key file is required to obtain the password used to log into your instance. For Linux AMIs, the private key file allows you to securely SSH into your instance. The selected key pair will be added to the set of keys authorized for this instance. 
 21. The `Lunch Status` page provides more details while your instance is powering up.
-22. 
+22. Click `View Instances` where you will be taken to the EC2 Instances page, you can see the IP, DNS name and other details here.
+![]()
 
