@@ -1,4 +1,4 @@
-# Palo-Alto-in-AWS
+# Palo-Alto-in-AWS :music:
 Tips on spinning up a PA in AWS
 
 1. Create an AWS account [HERE](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222)
